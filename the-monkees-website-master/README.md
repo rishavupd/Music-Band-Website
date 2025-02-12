@@ -1,4 +1,5 @@
 The Monkees Website
+
 This website is designed for concert bookers, existing fans, and potential fans of The Monkees. It provides a platform to explore the band's music, learn about upcoming concerts, and book the band for private events. Fans can also discover more about the band members, view photos, and stay updated through social media links and a newsletter sign-up option.
 
 UX
