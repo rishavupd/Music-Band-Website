@@ -1,96 +1,133 @@
-# The Monkees Website
+The Monkees Website
+This website is designed for concert bookers, existing fans, and potential fans of The Monkees. It provides a platform to explore the band's music, learn about upcoming concerts, and book the band for private events. Fans can also discover more about the band members, view photos, and stay updated through social media links and a newsletter sign-up option.
 
-This website offers concert bookers, existing fans and potential fans of The Monkees a way to see and hear songs from the bands back catalog and find out about any new material as it becomes available. 
+UX
+User Stories
+To ensure the website meets the needs of its visitors, the following user stories were developed:
 
-The site provides information and links to buy tickets for the bands upcoming concerts as well as a method of booking the band for private events. Fans can learn about the individual members of The Monkees through the band section and provides links to the bands social media and a newsletter sign-up option.
- 
-## UX
+As an existing fan of The Monkees, I want to:
 
-### User Stories
+Access the band's music catalog and discover new releases.
 
-Before beginning development on the site, several user stories were created to determine who a visitor to the site could be and what they might want from the site:
+Find information about upcoming concerts and purchase tickets.
 
-- "As an existing fan of The Monkees, I want to be able to quickly access the bands    existing output, discover any new material and upcoming concert dates so that I can enjoy my favourite Monkees songs."
+Share the website with others to introduce them to the band.
 
-- "As an existing fan of The Monkees, I want to direct people, whom I want to introduce to the band, to a website where they can read about the band members, listen to The Monkees music, watch their music videos, see art and photos of the band and find out about any upcoming concert dates so that they can become fans."
+As a potential fan of The Monkees, I want to:
 
-- "As a potential fan of The Monkees, I want to be able to go to a website where I can read about the band members, listen to The Monkees music, watch their music videos, see art and photos of the band and find out about any upcoming concert dates so that I can become a fan."
+Learn about the band members and their history.
 
-- "As a potential concert booker, I want to be able to go to a website where I can read about the band members, listen to The Monkees music, watch their music videos, see art and photos of the band, find out about any upcoming concert dates so that I can decide if I want to send a booking form to the band through the website."
+Listen to their music and watch their videos.
 
-### Design
+Explore photos and artwork related to the band.
 
-The Bootstrap framework serves as the base for the sites design. The website uses a single page layout consisting of seven main sections: the navbar/jumbotron section, band section, gigs section, booking form/modal section, music section, video section, and the social footer section. This layout uses the Bootstrap grid system and each section was built using a wrapper - container - row - column structure. The background of the navbar/jumbotron section makes use of flexbox to display its background image.
+As a concert booker, I want to:
 
-The website is structured semantically with a mobile-first philosophy. Keeping with this approach, the core elements (minimal viable product) of the site are present on all screens while there is more detail present in various areas like the navbar and gigs table on larger screens.
+Evaluate the band's music and style.
 
-As The Monkees have been around for some time and long established their brand, the sites colors and typography draw on the existing aesthetic and color scheme in order to instantly identify the site with the band.
+Find contact information to book the band for private events.
 
-A site map drawn up prior to start of the websites development can be found in this repository titled: The Monkees Website_ Preliminary Site Map.pdf
+Design
+The website is built using the Bootstrap framework to ensure a responsive and user-friendly design. It follows a single-page layout with the following sections:
 
-## Features
+Navbar/Jumbotron: A visually appealing header with a background image and navigation links.
 
-1. Users can watch music videos.
-2. Users can listen to existing songs.
-3. Users can find information about upcoming releases.
-4. Users can find information and links to purchase tickets for upcoming concerts.
-5. Users can book the band for private events.
-6. Users can find information about each member of The Monkees.
-7. Users can find links to the bands social media and sign up for a newsletter.
-8. Users can view a gallery containing images related to The Monkees (e.g. album covers).
+Band Section: Information about each band member.
 
-## Technologies Used
+Gigs Section: Upcoming concert dates and ticket purchase links.
 
-- [HTML](https://www.w3.org/)
-    - The project uses **HTML** to create the page.
+Booking Form/Modal: A form to book the band for private events.
 
-- [CSS](https://www.w3.org/)
-    - The project uses **CSS** to style the page.
+Music Section: A playlist of the band's songs.
 
-- [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
-    - The project uses **JavaScript** to manipulate the DOM.
+Video Section: Embedded music videos.
 
-- [Bootstrap](https://getbootstrap.com/docs/3.3/)
-    - The project uses **Bootstrap** to style the page and user experience.
+Social Footer: Links to the band's social media and a newsletter sign-up form.
 
-- [JQuery](https://jquery.com/)
-    - The project uses **JQuery** to enable Bootstraps full functionality (e.g. collapsible navbar etc)
+The design emphasizes a mobile-first approach, ensuring core features are accessible on all devices. Additional details, such as a full gigs table, are displayed on larger screens.
 
-## Testing
+The color scheme and typography are inspired by The Monkees' branding to create a cohesive and recognizable aesthetic.
 
-As it primarily consists of HTML and CSS, the site has been manually tested on a section by section basis and is fully responsive across all screen sizes and browsers (the calendar selector tool in the modal section is only available in Chrome and Edge as of the time of development). 
+Features
+Music Videos: Users can watch embedded music videos.
 
-1. Booking form:
-    1. Go to the "Gigs" section
-    2. Submit the form and verify that the modal appears.
+Music Player: Users can listen to the band's songs using HTML5 audio elements.
 
-1. Gallery
-    1. Go to the "Gallery" section
-    2. Verify that the arrow buttons control the slides.
+Upcoming Releases: Information about new music and albums.
 
-During the development of the site different elements were experimented with e.g. in an early version of the site a jQuery based music player was trialled but due to my lack of experience with JQuery at the time of development, customising the player was very challenging and I opted to work with the HTML5 audio elements instead. 
+Concert Information: Details about upcoming gigs and ticket purchase links.
 
-Similiarly as the images I had been provided with were in a variety of different sizes and displayed quite poorly. This led to some tinkering with different methods of displaying the images until finally settling on a customised version of the Bootstrap slideshow component which allows for a consistent presentation.
+Booking Form: A form to book the band for private events.
 
-## Deployment
+Band Member Profiles: Information about each member of The Monkees.
 
-The website has been deployed to Github pages and can be found at: <https://cianhub.github.io/the-monkees-website/>
+Social Media Links: Direct links to the band's social media profiles.
 
-## Installation
+Newsletter Sign-Up: A form to subscribe to the band's newsletter.
 
-1. Clone the repository.
-2. Open index.html in your web browser of choice.
+Image Gallery: A slideshow of band-related photos and album covers.
 
-## Credits
+Technologies Used
+HTML5: Used to structure the website.
 
-### Content
+CSS3: Used for styling and layout.
 
-- The text for 'Band' section was copied from the [Wikipedia article - The Monkees](https://en.wikipedia.org/wiki/The_Monkees)
+JavaScript: Used for DOM manipulation and interactivity.
 
-### Media
+Bootstrap: Used for responsive design and pre-built components.
 
-- The media files used in this website were provided by the Code Institute
+jQuery: Used to enhance Bootstrap functionality (e.g., collapsible navbar).
 
-### Acknowledgements
+Testing
+The website was manually tested to ensure functionality and responsiveness across various devices and browsers. Key tests included:
 
-- I received inspiration for image overlay and block divider from the [Whiskey Drop - Course Project](https://github.com/Code-Institute-Solutions/BootstrapLandingPage)
+Booking Form:
+
+Navigate to the "Gigs" section.
+
+Submit the form and verify that the confirmation modal appears.
+
+Image Gallery:
+
+Navigate to the "Gallery" section.
+
+Verify that the arrow buttons control the slideshow.
+
+Responsiveness:
+
+Test the website on different screen sizes (mobile, tablet, desktop).
+
+Ensure all elements are properly aligned and functional.
+
+During development, several design decisions were made to improve the user experience:
+
+Initially, a jQuery-based music player was considered but replaced with HTML5 audio elements for simplicity and better compatibility.
+
+The image gallery was customized using Bootstrap's carousel component to ensure consistent presentation across all images.
+
+Deployment
+The website is hosted on GitHub Pages and can be accessed at:
+The Monkees Website
+
+Installation
+To run the project locally:
+
+Clone the repository:
+
+
+git clone https://github.com/cianhub/the-monkees-website.git
+Open index.html in your preferred web browser.
+
+Credits
+Content
+Band member descriptions were adapted from publicly available information about The Monkees, rewritten in my own words to ensure originality.
+
+Media
+All images, music, and videos were provided as part of the project requirements and used in accordance with the guidelines.
+
+Tools
+Bootstrap: For responsive design and pre-built components.
+
+Google Fonts: For typography.
+
+Font Awesome: For icons.
